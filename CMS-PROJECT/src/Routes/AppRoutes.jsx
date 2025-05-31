@@ -8,8 +8,8 @@ import Dashboard from "../Pages/Dashboard.jsx";
 export default function AppRoutes() {
   return (
     <Routes>
+      <Route path="/" element={<About />} />
       <Route path="/Dashboard" element={<Dashboard />} />
-      <Route path="/about" element={<About />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/developers" element={<Developers />} />
